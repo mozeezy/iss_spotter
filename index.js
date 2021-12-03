@@ -1,4 +1,5 @@
 const { fetchMyIP } = require('./iss');
+const { fetchCordsByIP } = require('./iss')
 
 fetchMyIP((error, ip) => {
   if (error) {
